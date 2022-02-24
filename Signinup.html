@@ -18,6 +18,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Epilogue:wght@500&family=Federo&display=swap" rel="stylesheet">
+  <!--JS-->
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/validaciones.js"></script>
 </head>
 
 <body>
@@ -33,7 +36,7 @@
           <hr />
           <!--Form-->
           <div class="container fNormal">
-            <form>
+            <form onsubmit="return validaSesion()">
               <div class="mb-3">
                 <input type="email" class="form-control" id="idEmail" placeholder="Email" />
               </div>
@@ -53,7 +56,7 @@
           <hr />
           <!--Form-->
           <div class="container fNormal">
-            <form>
+            <form onsubmit="return validaRegistro()">
               <div class="mb-3">
                 <input type="text" class="form-control" id="idUsername" placeholder="Usuario" />
               </div>
