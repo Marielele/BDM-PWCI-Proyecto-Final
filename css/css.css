@@ -21,10 +21,6 @@ body {
     font-family: 'Epilogue', sans-serif;
 }
 
-body{
-    background-color:azure;
-}
-
 #cat1, #cat2, #cat3, #cat4 {
 
     color:black;
@@ -44,3 +40,13 @@ body{
 #cat4:hover{
     color: #006e66;
 } 
+
+.pp {
+    border-radius: 20px;
+}
+
+.detallitos {
+    font-size: smaller;
+    color: rgb(129, 129, 129) !important;
+    margin: 0;
+}
